@@ -7846,8 +7846,8 @@ C**************************************************************
       COMMON /CONSTS/ PI,PLANCK,BOLTZ,CLIGHT,AVOGAD,ALOSMT,GASCON,              
      *                RADCN1,RADCN2,GRAV,CPDAIR,AIRMWT,SECDY                    
 C                                                                               
-      REAL PM(MXZMD),TM(MXZMD),DENW(MXZMD),ZMDL(MXZMD)                          
-      REAL H2O_MIXRAT(MXZMD),COMP_FACTOR(MXZMD),ZTEMP(MXZMD)                    
+      REAL PM(ILVL),TM(ILVL),DENW(ILVL),ZMDL(ILVL)
+      REAL H2O_MIXRAT(ILVL),COMP_FACTOR(ILVL),ZTEMP(ILVL)
                                                                                 
       REAL Y                                                                    
       REAL CHI0                                                                 

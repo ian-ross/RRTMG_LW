@@ -759,8 +759,8 @@ subroutine lw_kgb11
                       start = (/1_im,1_im,bandNumber,gPointSetNumber/), &
                       count = (/Tself,numGPoints,1_im,1_im/))
 	
-	status(1_im2)  = nf90_inq_varid(ncid,"H20ForeignAbsorptionCoefficients",varID)
-	status(1_im3)  = nf90_get_var(ncid, varID, forrefo, &
+	status(12)  = nf90_inq_varid(ncid,"H20ForeignAbsorptionCoefficients",varID)
+	status(13)  = nf90_get_var(ncid, varID, forrefo, &
                       start = (/1_im,1_im,bandNumber,gPointSetNumber/), &
                       count = (/Tforeign,numGPoints,1_im,1_im/))
 	
